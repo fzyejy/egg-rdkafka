@@ -1,7 +1,7 @@
 {
   "name": "egg-rdkafka",
   "version": "1.0.0",
-  "description": "kafka plugin for egg.js",
+  "description": "rdkafka plugin for egg.js",
   "eggPlugin": {
     "name": "rdkafka"
   },
@@ -56,13 +56,13 @@
     "version": "8, 9"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JohnApache/egg-kafka-node.git"
-  },
+  "type": "git",
+  "url": "git@github.com:ynqc/toast.git"
+},
   "bugs": {
-    "url": "https://github.com/JohnApache/egg-kafka-node/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/JohnApache/egg-kafka-node#readme",
-  "author": "JohnApache",
+  "homepage": "",
+  "author": "fzyejy,liubin",
   "license": "MIT"
 }
