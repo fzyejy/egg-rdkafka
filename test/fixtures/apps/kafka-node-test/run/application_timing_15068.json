@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Application Start",
+    "start": 1597053371753,
+    "end": 1597053372376,
+    "duration": 623,
+    "pid": 15068,
+    "index": 0
+  },
+  {
+    "name": "Load Plugin",
+    "start": 1597053371763,
+    "end": 1597053371781,
+    "duration": 18,
+    "pid": 15068,
+    "index": 1
+  },
+  {
+    "name": "Load Config",
+    "start": 1597053371781,
+    "end": 1597053371792,
+    "duration": 11,
+    "pid": 15068,
+    "index": 2
+  },
+  {
+    "name": "Require(0) config/config.default.js",
+    "start": 1597053371782,
+    "end": 1597053371782,
+    "duration": 0,
+    "pid": 15068,
+    "index": 3
+  },
+  {
+    "name": "Require(1) E:/泊车项目/egg-kafka-node-master/node_modules/egg-session/config/config.default.js",
+    "start": 1597053371782,
+    "end": 1597053371782,
+    "duration": 0,
+    "pid": 15068,
+    "index": 4
+  },
+  {
+    "name": "Require(2) E:/泊车项目/egg-kafka-node-master/node_modules/egg-security/config/config.default.js",
+    "start": 1597053371783,
+    "end": 1597053371783,
+    "duration": 0,
+    "pid": 15068,
+    "index": 5
+  },
+  {
+    "name": "Require(3) E:/泊车项目/egg-kafka-node-master/node_modules/egg-jsonp/config/config.default.js",
+    "start": 1597053371783,
+    "end": 1597053371783,
+    "duration": 0,
+    "pid": 15068,
+    "index": 6
+  },
+  {
+    "name": "Require(4) E:/泊车项目/egg-kafka-node-master/node_modules/egg-onerror/config/config.default.js",
+    "start": 1597053371783,
+    "end": 1597053371783,
+    "duration": 0,
+    "pid": 15068,
+    "index": 7
+  },
+  {
+    "name": "Require(5) E:/泊车项目/egg-kafka-node-master/node_modules/egg-i18n/config/config.default.js",
+    "start": 1597053371783,
+    "end": 1597053371783,
+    "duration": 0,
+    "pid": 15068,
+    "index": 8
+  },
+  {
+    "name": "Require(6) E:/泊车项目/egg-kafka-node-master/node_modules/egg-watcher/config/config.default.js",
+    "start": 1597053371783,
+    "end": 1597053371783,
+    "duration": 0,
+    "pid": 15068,
+    "index": 9
+  },
+  {
+    "name": "Require(7) E:/泊车项目/egg-kafka-node-master/node_modules/egg-schedule/config/config.default.js",
+    "start": 1597053371783,
+    "end": 1597053371784,
+    "duration": 1,
+    "pid": 15068,
+    "index": 10
+  },
+  {
+    "name": "Require(8) E:/泊车项目/egg-kafka-node-master/node_modules/egg-multipart/config/config.default.js",
+    "start": 1597053371784,
+    "end": 1597053371784,
+    "duration": 0,
+    "pid": 15068,
+    "index": 11
+  },
+  {
+    "name": "Require(9) E:/泊车项目/egg-kafka-node-master/node_modules/egg-logrotator/config/config.default.js",
+    "start": 1597053371784,
+    "end": 1597053371785,
+    "duration": 1,
+    "pid": 15068,
+    "index": 12
+  },
+  {
+    "name": "Require(10) E:/泊车项目/egg-kafka-node-master/node_modules/egg-static/config/config.default.js",
+    "start": 1597053371786,
+    "end": 1597053371786,
+    "duration": 0,
+    "pid": 15068,
+    "index": 13
+  },
+  {
+    "name": "Require(11) E:/泊车项目/egg-kafka-node-master/node_modules/egg-view/config/config.default.js",
+    "start": 1597053371786,
+    "end": 1597053371786,
+    "duration": 0,
+    "pid": 15068,
+    "index": 14
+  },
+  {
+    "name": "Require(12) E:/泊车项目/egg-kafka-node-master/config/config.default.js",
+    "start": 1597053371786,
+    "end": 1597053371786,
+    "duration": 0,
+    "pid": 15068,
+    "index": 15
+  },
+  {
+    "name": "Require(13) E:/泊车项目/egg-kafka-node-master/node_modules/egg/config/config.default.js",
+    "start": 1597053371787,
+    "end": 1597053371787,
+    "duration": 0,
+    "pid": 15068,
+    "index": 16
+  },
+  {
+    "name": "Require(14) config/config.default.js",
+    "start": 1597053371788,
+    "end": 1597053371788,
+    "duration": 0,
+    "pid": 15068,
+    "index": 17
+  },
+  {
+    "name": "Require(15) E:/泊车项目/egg-kafka-node-master/node_modules/egg-watcher/config/config.unittest.js",
+    "start": 1597053371789,
+    "end": 1597053371789,
+    "duration": 0,
+    "pid": 15068,
+    "index": 18
+  },
+  {
+    "name": "Require(16) E:/泊车项目/egg-kafka-node-master/node_modules/egg/config/config.unittest.js",
+    "start": 1597053371791,
+    "end": 1597053371791,
+    "duration": 0,
+    "pid": 15068,
+    "index": 19
+  },
+  {
+    "name": "Load extend/application.js",
+    "start": 1597053371793,
+    "end": 1597053371872,
+    "duration": 79,
+    "pid": 15068,
+    "index": 20
+  },
+  {
+    "name": "Require(17) E:/泊车项目/egg-kafka-node-master/node_modules/egg-session/app/extend/application.js",
+    "start": 1597053371794,
+    "end": 1597053371795,
+    "duration": 1,
+    "pid": 15068,
+    "index": 21
+  },
+  {
+    "name": "Require(18) E:/泊车项目/egg-kafka-node-master/node_modules/egg-security/app/extend/application.js",
+    "start": 1597053371796,
+    "end": 1597053371797,
+    "duration": 1,
+    "pid": 15068,
+    "index": 22
+  },
+  {
+    "name": "Require(19) E:/泊车项目/egg-kafka-node-master/node_modules/egg-jsonp/app/extend/application.js",
+    "start": 1597053371798,
+    "end": 1597053371801,
+    "duration": 3,
+    "pid": 15068,
+    "index": 23
+  },
+  {
+    "name": "Require(20) E:/泊车项目/egg-kafka-node-master/node_modules/egg-logrotator/app/extend/application.js",
+    "start": 1597053371802,
+    "end": 1597053371803,
+    "duration": 1,
+    "pid": 15068,
+    "index": 24
+  },
+  {
+    "name": "Require(21) E:/泊车项目/egg-kafka-node-master/node_modules/egg-view/app/extend/application.js",
+    "start": 1597053371804,
+    "end": 1597053371807,
+    "duration": 3,
+    "pid": 15068,
+    "index": 25
+  },
+  {
+    "name": "Require(22) E:/泊车项目/egg-kafka-node-master/node_modules/egg-mock/app/extend/application.js",
+    "start": 1597053371807,
+    "end": 1597053371868,
+    "duration": 61,
+    "pid": 15068,
+    "index": 26
+  },
+  {
+    "name": "Load extend/request.js",
+    "start": 1597053371872,
+    "end": 1597053371881,
+    "duration": 9,
+    "pid": 15068,
+    "index": 27
+  },
+  {
+    "name": "Require(23) E:/泊车项目/egg-kafka-node-master/node_modules/egg/app/extend/request.js",
+    "start": 1597053371875,
+    "end": 1597053371878,
+    "duration": 3,
+    "pid": 15068,
+    "index": 28
+  },
+  {
+    "name": "Load extend/response.js",
+    "start": 1597053371881,
+    "end": 1597053371927,
+    "duration": 46,
+    "pid": 15068,
+    "index": 29
+  },
+  {
+    "name": "Require(24) E:/泊车项目/egg-kafka-node-master/node_modules/egg/app/extend/response.js",
+    "start": 1597053371885,
+    "end": 1597053371922,
+    "duration": 37,
+    "pid": 15068,
+    "index": 30
+  },
+  {
+    "name": "Load extend/context.js",
+    "start": 1597053371927,
+    "end": 1597053372039,
+    "duration": 112,
+    "pid": 15068,
+    "index": 31
+  },
+  {
+    "name": "Require(25) E:/泊车项目/egg-kafka-node-master/node_modules/egg-security/app/extend/context.js",
+    "start": 1597053371928,
+    "end": 1597053371941,
+    "duration": 13,
+    "pid": 15068,
+    "index": 32
+  },
+  {
+    "name": "Require(26) E:/泊车项目/egg-kafka-node-master/node_modules/egg-jsonp/app/extend/context.js",
+    "start": 1597053371942,
+    "end": 1597053371945,
+    "duration": 3,
+    "pid": 15068,
+    "index": 33
+  },
+  {
+    "name": "Require(27) E:/泊车项目/egg-kafka-node-master/node_modules/egg-i18n/app/extend/context.js",
+    "start": 1597053371946,
+    "end": 1597053371947,
+    "duration": 1,
+    "pid": 15068,
+    "index": 34
+  },
+  {
+    "name": "Require(28) E:/泊车项目/egg-kafka-node-master/node_modules/egg-multipart/app/extend/context.js",
+    "start": 1597053371948,
+    "end": 1597053372018,
+    "duration": 70,
+    "pid": 15068,
+    "index": 35
+  },
+  {
+    "name": "Require(29) E:/泊车项目/egg-kafka-node-master/node_modules/egg-view/app/extend/context.js",
+    "start": 1597053372019,
+    "end": 1597053372021,
+    "duration": 2,
+    "pid": 15068,
+    "index": 36
+  },
+  {
+    "name": "Require(30) E:/泊车项目/egg-kafka-node-master/app/extend/context.js",
+    "start": 1597053372023,
+    "end": 1597053372023,
+    "duration": 0,
+    "pid": 15068,
+    "index": 37
+  },
+  {
+    "name": "Require(31) E:/泊车项目/egg-kafka-node-master/node_modules/egg/app/extend/context.js",
+    "start": 1597053372024,
+    "end": 1597053372026,
+    "duration": 2,
+    "pid": 15068,
+    "index": 38
+  },
+  {
+    "name": "Require(32) app/extend/context.js",
+    "start": 1597053372028,
+    "end": 1597053372037,
+    "duration": 9,
+    "pid": 15068,
+    "index": 39
+  },
+  {
+    "name": "Load extend/helper.js",
+    "start": 1597053372040,
+    "end": 1597053372082,
+    "duration": 42,
+    "pid": 15068,
+    "index": 40
+  },
+  {
+    "name": "Require(33) E:/泊车项目/egg-kafka-node-master/node_modules/egg-security/app/extend/helper.js",
+    "start": 1597053372040,
+    "end": 1597053372071,
+    "duration": 31,
+    "pid": 15068,
+    "index": 41
+  },
+  {
+    "name": "Require(34) E:/泊车项目/egg-kafka-node-master/node_modules/egg/app/extend/helper.js",
+    "start": 1597053372075,
+    "end": 1597053372077,
+    "duration": 2,
+    "pid": 15068,
+    "index": 42
+  },
+  {
+    "name": "Load app.js",
+    "start": 1597053372082,
+    "end": 1597053372150,
+    "duration": 68,
+    "pid": 15068,
+    "index": 43
+  },
+  {
+    "name": "Require(35) E:/泊车项目/egg-kafka-node-master/node_modules/egg-session/app.js",
+    "start": 1597053372083,
+    "end": 1597053372083,
+    "duration": 0,
+    "pid": 15068,
+    "index": 44
+  },
+  {
+    "name": "Require(36) E:/泊车项目/egg-kafka-node-master/node_modules/egg-security/app.js",
+    "start": 1597053372084,
+    "end": 1597053372087,
+    "duration": 3,
+    "pid": 15068,
+    "index": 45
+  },
+  {
+    "name": "Require(37) E:/泊车项目/egg-kafka-node-master/node_modules/egg-onerror/app.js",
+    "start": 1597053372088,
+    "end": 1597053372113,
+    "duration": 25,
+    "pid": 15068,
+    "index": 46
+  },
+  {
+    "name": "Require(38) E:/泊车项目/egg-kafka-node-master/node_modules/egg-i18n/app.js",
+    "start": 1597053372114,
+    "end": 1597053372133,
+    "duration": 19,
+    "pid": 15068,
+    "index": 47
+  },
+  {
+    "name": "Require(39) E:/泊车项目/egg-kafka-node-master/node_modules/egg-watcher/app.js",
+    "start": 1597053372134,
+    "end": 1597053372134,
+    "duration": 0,
+    "pid": 15068,
+    "index": 48
+  },
+  {
+    "name": "Require(40) E:/泊车项目/egg-kafka-node-master/node_modules/egg-schedule/app.js",
+    "start": 1597053372135,
+    "end": 1597053372137,
+    "duration": 2,
+    "pid": 15068,
+    "index": 49
+  },
+  {
+    "name": "Require(41) E:/泊车项目/egg-kafka-node-master/node_modules/egg-multipart/app.js",
+    "start": 1597053372137,
+    "end": 1597053372141,
+    "duration": 4,
+    "pid": 15068,
+    "index": 50
+  },
+  {
+    "name": "Require(42) E:/泊车项目/egg-kafka-node-master/node_modules/egg-logrotator/app.js",
+    "start": 1597053372142,
+    "end": 1597053372142,
+    "duration": 0,
+    "pid": 15068,
+    "index": 51
+  },
+  {
+    "name": "Require(43) E:/泊车项目/egg-kafka-node-master/node_modules/egg-static/app.js",
+    "start": 1597053372143,
+    "end": 1597053372144,
+    "duration": 1,
+    "pid": 15068,
+    "index": 52
+  },
+  {
+    "name": "Require(44) E:/泊车项目/egg-kafka-node-master/node_modules/egg-mock/app.js",
+    "start": 1597053372145,
+    "end": 1597053372146,
+    "duration": 1,
+    "pid": 15068,
+    "index": 53
+  },
+  {
+    "name": "Require(45) E:/泊车项目/egg-kafka-node-master/app.js",
+    "start": 1597053372147,
+    "end": 1597053372147,
+    "duration": 0,
+    "pid": 15068,
+    "index": 54
+  },
+  {
+    "name": "Before Start in E:/泊车项目/egg-kafka-node-master/node_modules/egg-watcher/lib/init.js:15:14",
+    "start": 1597053372165,
+    "end": 1597053372376,
+    "duration": 211,
+    "pid": 15068,
+    "index": 55
+  },
+  {
+    "name": "Before Start in E:/泊车项目/egg-kafka-node-master/lib/kafka-node.js:186:7",
+    "start": 1597053372180,
+    "end": 1597053372348,
+    "duration": 168,
+    "pid": 15068,
+    "index": 56
+  },
+  {
+    "name": "Load Service",
+    "start": 1597053372180,
+    "end": 1597053372200,
+    "duration": 20,
+    "pid": 15068,
+    "index": 57
+  },
+  {
+    "name": "Load \"service\" to Context",
+    "start": 1597053372181,
+    "end": 1597053372200,
+    "duration": 19,
+    "pid": 15068,
+    "index": 58
+  },
+  {
+    "name": "Load Middleware",
+    "start": 1597053372200,
+    "end": 1597053372310,
+    "duration": 110,
+    "pid": 15068,
+    "index": 59
+  },
+  {
+    "name": "Load \"middlewares\" to Application",
+    "start": 1597053372200,
+    "end": 1597053372292,
+    "duration": 92,
+    "pid": 15068,
+    "index": 60
+  },
+  {
+    "name": "Load Controller",
+    "start": 1597053372310,
+    "end": 1597053372327,
+    "duration": 17,
+    "pid": 15068,
+    "index": 61
+  },
+  {
+    "name": "Load \"controller\" to Application",
+    "start": 1597053372310,
+    "end": 1597053372327,
+    "duration": 17,
+    "pid": 15068,
+    "index": 62
+  },
+  {
+    "name": "Load Router",
+    "start": 1597053372327,
+    "end": 1597053372337,
+    "duration": 10,
+    "pid": 15068,
+    "index": 63
+  },
+  {
+    "name": "Require(46) app/router.js",
+    "start": 1597053372328,
+    "end": 1597053372333,
+    "duration": 5,
+    "pid": 15068,
+    "index": 64
+  },
+  {
+    "name": "Before Start in E:/泊车项目/egg-kafka-node-master/node_modules/egg-core/lib/egg.js:303:10",
+    "start": 1597053372334,
+    "end": 1597053372348,
+    "duration": 14,
+    "pid": 15068,
+    "index": 65
+  }
+]

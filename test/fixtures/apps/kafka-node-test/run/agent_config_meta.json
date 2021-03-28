@@ -1,0 +1,250 @@
+{
+  "keys": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+  "kafkaNode": {
+    "kafkaHost": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+    "clientOption": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+    "consumerOption": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+    "producerOption": {
+      "requireAcks": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+      "ackTimeoutMs": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+      "partitionerType": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+      "autoCreateTopic": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+      "topics": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js"
+    },
+    "messageOption": {
+      "partition": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js",
+      "attributes": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js"
+    },
+    "baseConsumersDir": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "maxAge": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-watcher\\config\\config.unittest.js",
+    "eventSources": {
+      "default": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.unittest.js",
+    "disableConsoleAfterReady": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.unittest.js",
+    "appLogName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "allowDebugAtProd": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\config.default.js"
+}

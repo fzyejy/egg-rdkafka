@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Application Start",
+    "start": 1598404427896,
+    "end": 1598404430734,
+    "duration": 2838,
+    "pid": 19016,
+    "index": 0
+  },
+  {
+    "name": "Load Plugin",
+    "start": 1598404427899,
+    "end": 1598404428018,
+    "duration": 119,
+    "pid": 19016,
+    "index": 1
+  },
+  {
+    "name": "Load Config",
+    "start": 1598404428018,
+    "end": 1598404428379,
+    "duration": 361,
+    "pid": 19016,
+    "index": 2
+  },
+  {
+    "name": "Require(0) config/config.default.js",
+    "start": 1598404428019,
+    "end": 1598404428027,
+    "duration": 8,
+    "pid": 19016,
+    "index": 3
+  },
+  {
+    "name": "Require(1) /data/egg-rdkafka/node_modules/egg-session/config/config.default.js",
+    "start": 1598404428039,
+    "end": 1598404428056,
+    "duration": 17,
+    "pid": 19016,
+    "index": 4
+  },
+  {
+    "name": "Require(2) /data/egg-rdkafka/node_modules/egg-security/config/config.default.js",
+    "start": 1598404428072,
+    "end": 1598404428073,
+    "duration": 1,
+    "pid": 19016,
+    "index": 5
+  },
+  {
+    "name": "Require(3) /data/egg-rdkafka/node_modules/egg-jsonp/config/config.default.js",
+    "start": 1598404428086,
+    "end": 1598404428099,
+    "duration": 13,
+    "pid": 19016,
+    "index": 6
+  },
+  {
+    "name": "Require(4) /data/egg-rdkafka/node_modules/egg-onerror/config/config.default.js",
+    "start": 1598404428117,
+    "end": 1598404428128,
+    "duration": 11,
+    "pid": 19016,
+    "index": 7
+  },
+  {
+    "name": "Require(5) /data/egg-rdkafka/node_modules/egg-i18n/config/config.default.js",
+    "start": 1598404428140,
+    "end": 1598404428153,
+    "duration": 13,
+    "pid": 19016,
+    "index": 8
+  },
+  {
+    "name": "Require(6) /data/egg-rdkafka/node_modules/egg-watcher/config/config.default.js",
+    "start": 1598404428155,
+    "end": 1598404428168,
+    "duration": 13,
+    "pid": 19016,
+    "index": 9
+  },
+  {
+    "name": "Require(7) /data/egg-rdkafka/node_modules/egg-schedule/config/config.default.js",
+    "start": 1598404428182,
+    "end": 1598404428196,
+    "duration": 14,
+    "pid": 19016,
+    "index": 10
+  },
+  {
+    "name": "Require(8) /data/egg-rdkafka/node_modules/egg-multipart/config/config.default.js",
+    "start": 1598404428203,
+    "end": 1598404428226,
+    "duration": 23,
+    "pid": 19016,
+    "index": 11
+  },
+  {
+    "name": "Require(9) /data/egg-rdkafka/node_modules/egg-development/config/config.default.js",
+    "start": 1598404428241,
+    "end": 1598404428256,
+    "duration": 15,
+    "pid": 19016,
+    "index": 12
+  },
+  {
+    "name": "Require(10) /data/egg-rdkafka/node_modules/egg-logrotator/config/config.default.js",
+    "start": 1598404428269,
+    "end": 1598404428280,
+    "duration": 11,
+    "pid": 19016,
+    "index": 13
+  },
+  {
+    "name": "Require(11) /data/egg-rdkafka/node_modules/egg-static/config/config.default.js",
+    "start": 1598404428290,
+    "end": 1598404428301,
+    "duration": 11,
+    "pid": 19016,
+    "index": 14
+  },
+  {
+    "name": "Require(12) /data/egg-rdkafka/node_modules/egg-view/config/config.default.js",
+    "start": 1598404428309,
+    "end": 1598404428324,
+    "duration": 15,
+    "pid": 19016,
+    "index": 15
+  },
+  {
+    "name": "Require(13) /data/egg-rdkafka/config/config.default.js",
+    "start": 1598404428326,
+    "end": 1598404428327,
+    "duration": 1,
+    "pid": 19016,
+    "index": 16
+  },
+  {
+    "name": "Require(14) /data/egg-rdkafka/node_modules/egg/config/config.default.js",
+    "start": 1598404428327,
+    "end": 1598404428344,
+    "duration": 17,
+    "pid": 19016,
+    "index": 17
+  },
+  {
+    "name": "Require(15) config/config.default.js",
+    "start": 1598404428348,
+    "end": 1598404428348,
+    "duration": 0,
+    "pid": 19016,
+    "index": 18
+  },
+  {
+    "name": "Require(16) /data/egg-rdkafka/node_modules/egg-security/config/config.local.js",
+    "start": 1598404428349,
+    "end": 1598404428356,
+    "duration": 7,
+    "pid": 19016,
+    "index": 19
+  },
+  {
+    "name": "Require(17) /data/egg-rdkafka/node_modules/egg-watcher/config/config.local.js",
+    "start": 1598404428357,
+    "end": 1598404428365,
+    "duration": 8,
+    "pid": 19016,
+    "index": 20
+  },
+  {
+    "name": "Require(18) /data/egg-rdkafka/node_modules/egg-view/config/config.local.js",
+    "start": 1598404428365,
+    "end": 1598404428377,
+    "duration": 12,
+    "pid": 19016,
+    "index": 21
+  },
+  {
+    "name": "Require(19) /data/egg-rdkafka/node_modules/egg/config/config.local.js",
+    "start": 1598404428378,
+    "end": 1598404428379,
+    "duration": 1,
+    "pid": 19016,
+    "index": 22
+  },
+  {
+    "name": "Load extend/agent.js",
+    "start": 1598404428388,
+    "end": 1598404429041,
+    "duration": 653,
+    "pid": 19016,
+    "index": 23
+  },
+  {
+    "name": "Require(20) /data/egg-rdkafka/node_modules/egg-security/app/extend/agent.js",
+    "start": 1598404428400,
+    "end": 1598404428442,
+    "duration": 42,
+    "pid": 19016,
+    "index": 24
+  },
+  {
+    "name": "Require(21) /data/egg-rdkafka/node_modules/egg-schedule/app/extend/agent.js",
+    "start": 1598404428493,
+    "end": 1598404428827,
+    "duration": 334,
+    "pid": 19016,
+    "index": 25
+  },
+  {
+    "name": "Require(22) /data/egg-rdkafka/node_modules/egg-logrotator/app/extend/agent.js",
+    "start": 1598404428855,
+    "end": 1598404428986,
+    "duration": 131,
+    "pid": 19016,
+    "index": 26
+  },
+  {
+    "name": "Require(23) /data/egg-rdkafka/node_modules/egg-mock/app/extend/agent.js",
+    "start": 1598404429006,
+    "end": 1598404429039,
+    "duration": 33,
+    "pid": 19016,
+    "index": 27
+  },
+  {
+    "name": "Load agent.js",
+    "start": 1598404429042,
+    "end": 1598404430066,
+    "duration": 1024,
+    "pid": 19016,
+    "index": 28
+  },
+  {
+    "name": "Require(24) /data/egg-rdkafka/node_modules/egg-security/agent.js",
+    "start": 1598404429053,
+    "end": 1598404429102,
+    "duration": 49,
+    "pid": 19016,
+    "index": 29
+  },
+  {
+    "name": "Require(25) /data/egg-rdkafka/node_modules/egg-onerror/agent.js",
+    "start": 1598404429109,
+    "end": 1598404429124,
+    "duration": 15,
+    "pid": 19016,
+    "index": 30
+  },
+  {
+    "name": "Require(26) /data/egg-rdkafka/node_modules/egg-watcher/agent.js",
+    "start": 1598404429132,
+    "end": 1598404429200,
+    "duration": 68,
+    "pid": 19016,
+    "index": 31
+  },
+  {
+    "name": "Require(27) /data/egg-rdkafka/node_modules/egg-schedule/agent.js",
+    "start": 1598404429200,
+    "end": 1598404429256,
+    "duration": 56,
+    "pid": 19016,
+    "index": 32
+  },
+  {
+    "name": "Require(28) /data/egg-rdkafka/node_modules/egg-development/agent.js",
+    "start": 1598404429283,
+    "end": 1598404429396,
+    "duration": 113,
+    "pid": 19016,
+    "index": 33
+  },
+  {
+    "name": "Require(29) /data/egg-rdkafka/node_modules/egg-logrotator/agent.js",
+    "start": 1598404429408,
+    "end": 1598404429423,
+    "duration": 15,
+    "pid": 19016,
+    "index": 34
+  },
+  {
+    "name": "Require(30) /data/egg-rdkafka/agent.js",
+    "start": 1598404429442,
+    "end": 1598404430052,
+    "duration": 610,
+    "pid": 19016,
+    "index": 35
+  },
+  {
+    "name": "Before Start in /data/egg-rdkafka/node_modules/egg-watcher/lib/init.js:15:14",
+    "start": 1598404430069,
+    "end": 1598404430681,
+    "duration": 612,
+    "pid": 19016,
+    "index": 36
+  },
+  {
+    "name": "Before Start in /data/egg-rdkafka/node_modules/egg-schedule/agent.js:12:9",
+    "start": 1598404430071,
+    "end": 1598404430477,
+    "duration": 406,
+    "pid": 19016,
+    "index": 37
+  },
+  {
+    "name": "Before Start in /data/egg-rdkafka/node_modules/egg-development/agent.js:12:9",
+    "start": 1598404430071,
+    "end": 1598404430733,
+    "duration": 662,
+    "pid": 19016,
+    "index": 38
+  },
+  {
+    "name": "Before Start in /data/egg-rdkafka/lib/kafka-node.js:137:7",
+    "start": 1598404430160,
+    "end": 1598404430678,
+    "duration": 518,
+    "pid": 19016,
+    "index": 39
+  }
+]

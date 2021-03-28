@@ -1,0 +1,447 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true
+      },
+      "methodnoallow": {
+        "enable": true
+      },
+      "noopen": {
+        "enable": true
+      },
+      "nosniff": {
+        "enable": true
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "C:\\Users\\fzyejy\\AppData\\Local\\Temp\\egg-multipart-tmp\\kafka-node-test",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\app\\public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\app\\view",
+      "cache": true,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "kafkaNode": {
+      "kafkaHost": "192.168.3.158:9092",
+      "clientOption": {},
+      "consumerOption": [
+        {
+          "groupId": "group1",
+          "topics": [
+            "testTopic1"
+          ],
+          "options": {
+            "fetchMaxWaitMs": 100,
+            "fetchMinBytes": 1,
+            "fetchMaxBytes": 1048576
+          }
+        },
+        {
+          "groupId": "group2",
+          "topics": [
+            "testTopic2",
+            "testTopic3"
+          ],
+          "options": {}
+        },
+        {
+          "groupId": "group3",
+          "topics": [
+            "testTopic3"
+          ]
+        }
+      ],
+      "producerOption": {
+        "requireAcks": 1,
+        "ackTimeoutMs": 100,
+        "partitionerType": 2,
+        "autoCreateTopic": true,
+        "topics": [
+          "testTopic1",
+          "testTopic2",
+          "testTopic3"
+        ]
+      },
+      "messageOption": {
+        "partition": 0,
+        "attributes": 0
+      },
+      "baseConsumersDir": "./app/kafka"
+    },
+    "env": "unittest",
+    "name": "kafka-node-test",
+    "keys": "<String len: 6>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "kafka-node-test",
+      "version": "0.0.1"
+    },
+    "baseDir": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test",
+    "HOME": "C:\\Users\\fzyejy",
+    "rundir": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      }
+    },
+    "logger": {
+      "dir": "E:\\泊车项目\\egg-kafka-node-master\\test\\fixtures\\apps\\kafka-node-test\\logs\\kafka-node-test",
+      "encoding": "utf8",
+      "env": "unittest",
+      "level": "INFO",
+      "consoleLevel": "WARN",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": false,
+      "appLogName": "kafka-node-test-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {},
+      "allowDebugAtProd": false,
+      "type": "agent"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares"
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-security",
+      "version": "2.4.2"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-multipart",
+      "version": "2.4.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-logrotator",
+      "version": "3.0.5"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-view",
+      "version": "2.1.1"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "E:\\泊车项目\\egg-kafka-node-master\\node_modules\\egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "3.21.0"
+    },
+    "kafkaNode": {
+      "enable": true,
+      "path": "E:\\泊车项目\\egg-kafka-node-master",
+      "name": "kafkaNode",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "1.1.5"
+    }
+  }
+}
