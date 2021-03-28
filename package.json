@@ -1,6 +1,6 @@
 {
   "name": "egg-node-rdkafka",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rdkafka plugin for egg.js",
   "eggPlugin": {
     "name": "rdkafka"
@@ -56,9 +56,9 @@
     "version": "8, 9"
   },
   "repository": {
-  "type": "git",
-  "url": "git@github.com:fzyejy/egg-rdkafka.git"
-},
+    "type": "git",
+    "url": "git@github.com:fzyejy/egg-rdkafka.git"
+  },
   "bugs": {
     "url": ""
   },
