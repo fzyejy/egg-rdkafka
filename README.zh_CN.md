@@ -18,10 +18,9 @@
 ### 依赖的 Node 版本
 node >= 8.0.0  😁
 
-## 使用方案
+## 使用方法
 
-1、同步插件目录，并npm i
-2、将插件目录整个复制到项目的node_modules目录
+npm install egg-node-rdkafka --save
 
 ## 开启插件
 
@@ -29,7 +28,7 @@ node >= 8.0.0  😁
 // config/plugin.js
 exports.rdkafka = {
   enable: true,
-  package: 'egg-rdkafka',
+  package: 'egg-node-rdkafka',
 };
 ```
 
