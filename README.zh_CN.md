@@ -1,5 +1,7 @@
 # egg-rdkafka
 
+中国电信股份有限公司福州分公司 软件开发团队  fzyejy  fzliub
+
 - [简体中文](README.zh_CN.md)
 
 该插件是[rdkafka](https://github.com/Blizzard/node-rdkafka) 的封装, 方便在egg.js 环境下使用的一个egg风格的插件, 并提供了方便的api发送给kafka消息的方法 部分详细配置请参考 [https://github.com/Blizzard/node-rdkafka](https://github.com/Blizzard/node-rdkafka)
