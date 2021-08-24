@@ -1,6 +1,6 @@
 {
   "name": "egg-node-rdkafka",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "rdkafka plugin for egg.js",
   "eggPlugin": {
     "name": "rdkafka"
@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "eventsproxy": "^1.3.4",
-    "node-rdkafka": "^2.10.1",
+    "node-rdkafka": "2.10",
     "mocha": "^8.2.1"
   },
   "devDependencies": {
